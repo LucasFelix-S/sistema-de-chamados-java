@@ -46,4 +46,4 @@ Fique à vontade para contribuir com melhorias! Caso tenha sugestões ou encontr
 **Licença**
 Este projeto está sob a licença MIT.
 
-Se você gostou do projeto ou tem alguma sugestão, me chame no LinkedIn (www.linkedin.com/in/dalucasfelixsantos)! 🚀
+Se você gostou do projeto ou tem alguma sugestão, me chame no LinkedIn (www.linkedin.com/in/dalucasfelixsantos)!
