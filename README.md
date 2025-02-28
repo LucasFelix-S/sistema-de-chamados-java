@@ -41,7 +41,7 @@ git clone https://github.com/seu-usuario/sistema-de-chamados-java.git
 - Siga as instruções no terminal para testar o sistema.
 
 **Contribuições**
-Fique à vontade para contribuir com melhorias! Caso tenha sugestões ou encontre algum bug, abra uma Issue ou envie um Pull Request. 😃
+Fique à vontade para contribuir com melhorias! Caso tenha sugestões ou encontre algum bug, abra uma Issue ou envie um Pull Request.
 
 **Licença**
 Este projeto está sob a licença MIT.
