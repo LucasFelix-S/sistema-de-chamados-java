@@ -1,7 +1,6 @@
 package projeto;
 
 public class Usuarios {
-	
 	private final String dbUsuario;
 	private final String dbSenha;
 	
@@ -13,7 +12,7 @@ public class Usuarios {
 	public String getDbUsuario() {
 		return dbUsuario;
 	}
-
+	
 	public String getDbSenha() {
 		return dbSenha;
 	}

@@ -2,12 +2,10 @@ package projeto;
 import java.util.Scanner;
 
 public class Menus {
-	
 	Usuarios usuarios = new Usuarios();
 	Scanner entrada = new Scanner(System.in);
 
 	public void telaInicial() {
-		
 		System.out.println("+-----------------------------------------+");
 		System.out.println(" Seja bem-vindo(a) ao sistema de chamados! ");
 		System.out.println("+-----------------------------------------+");
@@ -18,13 +16,10 @@ public class Menus {
 		System.out.println("\n");
 		System.out.println(">>");
 		String entradaMenu = entrada.nextLine();
-		
 		validaTelaInicial(entradaMenu);
-		
 	}	
 		
 	public void validaTelaInicial(String entrada) {
-		
 		if(entrada.equals("1")) {
 			telaLogin();
 			
@@ -41,7 +36,6 @@ public class Menus {
 			System.out.println("Tente novamente...");
 			telaInicial();
 		}
-		
 	}
 	
 	public void telaLogin() {
@@ -65,23 +59,21 @@ public class Menus {
 	}
 	
 	public void validaLogin(String usuario, String senha) {
-		
 		if(usuario.equals(usuarios.getDbUsuario()) && senha.equals(usuarios.getDbSenha())) {
 			System.out.println("\n");
 			System.out.println("Login efetuado com sucesso!");
 			System.out.println("Acessando o sistema...");
 			telaSistema();
+			
 		} else {
 			System.out.println("\n");
 			System.out.println("Credenciais incorretas!");
 			System.out.println("Tente novamente...");
 			erroLogin();
 		}
-		
 	}
 	
 	public void telaSistema() {
-		
 		while(true) {
 			System.out.println("+-----------------------------------------+");
 			System.out.println("            Crie o seu chamado             ");
@@ -108,12 +100,10 @@ public class Menus {
 			
 			validaChamado(nome, email, setor, problema, resposta);
 			break;
-			
 		}
 	}
 	
 	public void validaChamado(String nome, String email, String setor, String problema, String resposta) {
-		
 		if(resposta.equals("Y") || resposta.equals("y")) {
 			System.out.println("\n");
 			System.out.println("Ótimo, vamos validar o seu chamado: \n");
@@ -123,14 +113,15 @@ public class Menus {
 			System.out.println("Seu problema: " + problema);
 			System.out.println("\n");
 			menuFinal();
+			
 		} else if (resposta.equals("N") || resposta.equals("n")) {
 			System.out.println("\n");
 			System.out.println("Você optou por não validar seu chamado.");
 			menuFinal();
+			
 		} else {
 			
 		}
-		
 	}
 	
 	public void menuFinal() {
@@ -153,7 +144,6 @@ public class Menus {
 			System.out.println("\n");
 			System.out.println("Opção inválida!");
 			System.out.println("Encerrando o sitema...");
-		}
-		
+		}	
 	}	
 }
