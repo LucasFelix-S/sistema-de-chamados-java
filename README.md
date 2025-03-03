@@ -34,7 +34,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - Clone este repositório para sua máquina local:  
 ```bash
-git clone https://github.com/seu-usuario/sistema-de-chamados-java.git
+git clone https://github.com/LucasFelix-S/sistema-de-chamados-java.git
 ```
 - Importe o projeto em sua IDE Java (Eclipse, IntelliJ, VS Code, etc.).
 - Execute a classe Main.java.
