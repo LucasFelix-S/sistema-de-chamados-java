@@ -1,4 +1,4 @@
-package projeto;
+package model;
 
 public class Usuarios {
 	private final String dbUsuario;
