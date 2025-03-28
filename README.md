@@ -17,13 +17,6 @@ O sistema permite que um usuário faça login e registre chamados, validando as 
 - Exibe um resumo do chamado antes da finalização  
 - Permite interação com o usuário via Scanner  
 
-**Tecnologias Utilizadas**  
-
-O projeto foi desenvolvido utilizando as seguintes tecnologias:  
-
-- Java SE
-- Eclipse IDE (para desenvolvimento e testes)  
-
 **Explicação dos arquivos:**  
 - Main.java: Ponto de entrada do programa.  
 - Menus.java: Gerencia a interface e interação com o usuário.  
@@ -48,4 +41,4 @@ Fique à vontade para contribuir com melhorias! Caso tenha sugestões ou encontr
 
 Este projeto está sob a licença MIT.
 
-Se você gostou do projeto ou tem alguma sugestão, me chame no LinkedIn (www.linkedin.com/in/dalucasfelixsantos)!
+Se você gostou do projeto ou tem alguma sugestão, me chame no LinkedIn www.linkedin.com/in/dalucasfelixsantos ou no email lucasfelixsantos2002@outlook.com
