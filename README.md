@@ -21,17 +21,7 @@ O sistema permite que um usuário faça login e registre chamados, validando as 
 - Main.java: Ponto de entrada do programa.  
 - Menus.java: Gerencia a interface e interação com o usuário.  
 - Usuarios.java: Armazena as credenciais do usuário administrador.  
-- README.md: Documentação do projeto.  
-
-**Como executar o projeto** 
-
-- Clone este repositório para sua máquina local:  
-```bash
-git clone https://github.com/LucasFelix-S/sistema-de-chamados-java.git
-```
-- Importe o projeto em sua IDE Java (Eclipse, IntelliJ, VS Code, etc.).
-- Execute a classe Main.java.
-- Siga as instruções no terminal para testar o sistema.
+- README.md: Documentação simples do projeto.  
 
 **Contribuições**
 
